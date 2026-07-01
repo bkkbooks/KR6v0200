@@ -1,0 +1,78 @@
+canonical_identifier: bkk:krp/KR6v0200/I/v1
+canonical_location: https://kanripo.org/bkk/KR6v0200/I/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 宕昌公暉福寺碑
+  identifiers:
+    krp: KR6v0200
+    cbeta: I01n0001
+    cbeta_old_id: I01n0001
+    authorityid: CA0008136
+    json_key: I0001
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0001.xml
+    old_id: I01n0001
+  edition:
+    short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0200_000-I.yaml, hash: 'sha256:d7fd26a6458313f2e70200477cc78c09a841f300c6a9768d5f55e9f2aafaff2e'}
+  - {seq: 1, filename: KR6v0200_001-I.yaml, hash: 'sha256:e07e7596ee91612a2de3a99f696c3f0b7df72049671be9fb87a14792800a13b4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0200_000-I.markers.yaml, hash: 'sha256:3b4d089aa3602a01c7ee4b690a383912345e3f053c9647e2fb89dd3e3df2e836'}
+  - {seq: 1, role: markers, filename: assets/KR6v0200_001-I.markers.yaml, hash: 'sha256:00c30dca4ed1eb8cbe82d0e25203185c826def7776442b5e931f7718cdae4fb1'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0200_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 945
+  label: 宕昌公暉福寺碑
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0200_I_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 之一　碑陽
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0200_I_001-mulu-2
+    span:
+    - body
+    - 4
+    - 4
+  label: 額
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0200_I_001-mulu-3
+    span:
+    - body
+    - 14
+    - 14
+  label: 本文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0200_I_001-mulu-4
+    span:
+    - body
+    - 788
+    - 788
+  label: 之二　碑陰
+  type: mulu
+  level: 1
+hash: sha256:65d59eb147008565e4f297a3bf951486f8b38ed498760d7e4cf0ab1176232940
